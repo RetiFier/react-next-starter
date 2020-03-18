@@ -1,0 +1,43 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "legacyDecorators": true,
+      "experimentalObjectRestSpread": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "prettier"],
+  "rules": {
+    "no-console": 0,
+    "no-cond-assign": 0,
+    "no-extra-semi": 1,
+    "no-unused-vars": [0, { "vars": "all", "args": "after-used" }],
+
+    "max-len": 0,
+    "semi": 1,
+    "comma-dangle": [2, "never"],
+    "indent": [2, "tab", { "SwitchCase": 1 }],
+    "import/prefer-default-export": 0,
+    "react/jsx-indent": [2, "tab"],
+    "react/jsx-indent-props": [2, "tab"],
+    "react/jsx-one-expression-per-line": 0,
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2,
+
+    "react-native/no-unused-styles": 0,
+
+    "prettier/prettier": 2
+  }
+}
