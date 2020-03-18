@@ -16,7 +16,7 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:PORT](http://localhost:PORT) with your browser to see the result.
+Open [http://localhost:PORT](http://localhost:3000) with your browser to see the result.
 Can change the port number in .env File
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
