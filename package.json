@@ -20,12 +20,12 @@
 		"redux": "^4.0.5",
 		"redux-thunk": "^2.3.0",
 		"styled-components": "^5.0.1",
-		"cross-env": "^7.0.2",
+		"cross-env": "^7.0.2"
 	},
 	"devDependencies": {
 		"nodemon": "^2.0.2",
 		"redux-logger": "^3.0.6",
 		"dotenv": "^8.2.0",
-		"eslint-plugin-react": "^7.19.0",
+		"eslint-plugin-react": "^7.19.0"
 	}
 }
