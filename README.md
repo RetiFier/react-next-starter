@@ -8,7 +8,11 @@ First, Install the Node Module
 npm i
 ```
 
-Second, run the development server:
+```bash
+Change env.example to .env
+```
+
+Run the development server:
 
 ```bash
 npm run dev
